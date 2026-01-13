@@ -1,0 +1,17 @@
+{
+  "name": "large_servo_hn",
+  "mode": "servo",
+  "url": "https://news.ycombinator.com",
+  "task": "click on the first story link",
+  "steps": 200,
+  "wall_s": 62.38654804229736,
+  "screens_visited": [
+    "Hacker News"
+  ],
+  "num_events": 9062,
+  "num_nodes": 137,
+  "num_actions": 398,
+  "num_verdicts": 100,
+  "success_verdicts": 100,
+  "failure_verdicts": 0
+}

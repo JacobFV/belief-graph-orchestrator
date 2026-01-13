@@ -1,0 +1,17 @@
+{
+  "name": "large_hn_navigate",
+  "mode": "dom",
+  "url": "https://news.ycombinator.com",
+  "task": "click on the first story link then go back and click the second story",
+  "steps": 120,
+  "wall_s": 34.273027658462524,
+  "screens_visited": [
+    "Hacker News"
+  ],
+  "num_events": 17900,
+  "num_nodes": 142,
+  "num_actions": 239,
+  "num_verdicts": 0,
+  "success_verdicts": 0,
+  "failure_verdicts": 0
+}

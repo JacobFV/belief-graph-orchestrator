@@ -1,0 +1,17 @@
+{
+  "name": "large_wikipedia_search",
+  "mode": "dom",
+  "url": "https://en.wikipedia.org/wiki/Main_Page",
+  "task": "click the search box and type artificial intelligence and click search",
+  "steps": 150,
+  "wall_s": 42.681724309921265,
+  "screens_visited": [
+    "Wikipedia, the free encyclopedia"
+  ],
+  "num_events": 21541,
+  "num_nodes": 211,
+  "num_actions": 226,
+  "num_verdicts": 76,
+  "success_verdicts": 76,
+  "failure_verdicts": 0
+}

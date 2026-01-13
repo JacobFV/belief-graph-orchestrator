@@ -1,0 +1,17 @@
+{
+  "name": "large_servo_form",
+  "mode": "servo",
+  "url": "https://httpbin.org/forms/post",
+  "task": "click the customer name field and type John Smith",
+  "steps": 200,
+  "wall_s": 42.53070783615112,
+  "screens_visited": [
+    "https://httpbin.org/forms/post"
+  ],
+  "num_events": 4886,
+  "num_nodes": 68,
+  "num_actions": 300,
+  "num_verdicts": 51,
+  "success_verdicts": 51,
+  "failure_verdicts": 0
+}

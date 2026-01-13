@@ -1,0 +1,17 @@
+{
+  "name": "large_httpbin_form",
+  "mode": "dom",
+  "url": "https://httpbin.org/forms/post",
+  "task": "click the customer name field and type John Smith then click the telephone field and type 5551234",
+  "steps": 150,
+  "wall_s": 35.69427704811096,
+  "screens_visited": [
+    "https://httpbin.org/forms/post"
+  ],
+  "num_events": 5226,
+  "num_nodes": 84,
+  "num_actions": 301,
+  "num_verdicts": 58,
+  "success_verdicts": 58,
+  "failure_verdicts": 0
+}
