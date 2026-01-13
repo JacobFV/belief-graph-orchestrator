@@ -91,9 +91,10 @@ def test_desktop_absolute_tap_phases():
     assert len(abs_cmds) > 0
 
 
-def test_backward_compat_iphone_cls():
-    """Brain(iphone_cls=...) still works via backward-compat aliases."""
-    brain = Brain(iphone_key="mock", iphone_cls=MockPhone, use_metadata_hints=True)
+def test_backward_compat_legacy_cls():
+    """Brain(legacy cls/key aliases) still works via backward-compat params."""
+    # exercises the deprecated legacy key/cls aliases
+    brain = Brain(target_key="mock", target_cls=MockPhone, use_metadata_hints=True)
     for _ in range(5):
         brain.step()
     assert brain.state.num_events if hasattr(brain.state, "num_events") else len(brain.journal.events) > 0
